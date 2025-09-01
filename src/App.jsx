@@ -1,10 +1,11 @@
 import Button from "./Button"
+import "./App.css"
 
 function App() {
   return (
     <>
-     <h1>hello</h1>
-     <Button></Button>
+     <h1 className="title">hello</h1>
+     <Button />
     </>
   )
 }
