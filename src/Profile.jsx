@@ -2,7 +2,7 @@ import React from 'react'
 import photo from "./assets/jsbsk.png"
 import Login from './Login'
 
-export default function Profile() {
+export default function Profile({appName}) {
     let isLoggedIn = false
     const user = {
         name: 'hamza',
@@ -11,7 +11,7 @@ export default function Profile() {
     }
   return (
     <>
-    <h1>User info</h1>
+    <h1>User info (from {appName})</h1>
     <div>
         {isLoggedIn ?
             (<div>
@@ -25,7 +25,7 @@ export default function Profile() {
                     }} />
             </div>)
             :
-        <Login/>
+            <Login/>
         } 
     </div>
    
