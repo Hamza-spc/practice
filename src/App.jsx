@@ -9,9 +9,9 @@ function App() {
   // const appName = "practice"
   return (
     <>
-     {/* <h1 className="title">hello</h1>
+     <h1 className="title">hello</h1>
      <Button />
-     <Profile appName={appName}/>
+     {/* <Profile appName={appName}/>
      <Products /> */}
      <Login />
     </>
